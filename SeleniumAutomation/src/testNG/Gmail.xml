@@ -1,0 +1,13 @@
+<suite name="Gmail_dataprovider">
+<test name="gmai">
+<parameter name="karunabpharm@gmail.com" value="07429186166Kr">
+<parameter name="karunams001" value="07429186166Kk">
+</parameter>
+</parameter>
+<classes>
+<class name ="testNG.Gmail_Login_Logout_DataPrvider">
+
+</class>
+
+</classes>
+</test></suite>

@@ -1,0 +1,43 @@
+<suite name="HMSbatch execution">
+<test name="Ajax Results">
+<classes>
+<class name="testNG.AjaxControl">
+<methods>
+<include name="f">
+</include>
+</methods>
+</class>
+</classes>
+</test>
+
+<test name="GmailResults">
+<classes>
+<class name="testNG.Gmail_Login_Logout">
+<method>
+<include name=" verifyLogin">
+</include>
+</method>
+</class>
+</classes>
+</test>
+<test name="spicejetresults">
+<classes>
+<class name="testNG.Onewaysearch_Spicejet">
+<method>
+<include name=" Test01">
+</include>
+</method>
+</class>
+</classes>
+</test>
+<test name="TooltipResults">
+<classes>
+<class name="testNG.ToolTip">
+<method>
+<include name=" f">
+</include>
+</method>
+</class>
+</classes>
+</test>
+</suite>

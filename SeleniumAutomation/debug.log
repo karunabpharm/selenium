@@ -1,0 +1,4 @@
+[0306/101840.313:ERROR:file_io_win.cc(179)] CreateFile C:\Users\karuna\AppData\Local\Temp\scoped_dir12536_2263\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0306/104122.577:ERROR:file_io_win.cc(179)] CreateFile C:\Users\karuna\AppData\Local\Temp\scoped_dir2864_18352\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0308/075255.463:ERROR:file_io_win.cc(179)] CreateFile C:\Users\karuna\AppData\Local\Temp\scoped_dir3360_7641\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0313/160948.300:ERROR:file_io_win.cc(179)] CreateFile C:\Users\karuna\AppData\Local\Temp\scoped_dir740_14349\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)

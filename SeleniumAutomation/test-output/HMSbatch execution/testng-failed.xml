@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HMSbatch execution]">
+  <test name="Ajax Results(failed)">
+    <classes>
+      <class name="testNG.ToolTip">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.ToolTip -->
+      <class name="testNG.Gmail_Login_Logout">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.Gmail_Login_Logout -->
+      <class name="testNG.AjaxControl">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.AjaxControl -->
+      <class name="testNG.Onewaysearch_Spicejet">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.Onewaysearch_Spicejet -->
+    </classes>
+  </test> <!-- Ajax Results(failed) -->
+  <test name="spicejetresults(failed)">
+    <classes>
+      <class name="testNG.ToolTip">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.ToolTip -->
+      <class name="testNG.Gmail_Login_Logout">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.Gmail_Login_Logout -->
+      <class name="testNG.AjaxControl">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.AjaxControl -->
+      <class name="testNG.Onewaysearch_Spicejet">
+        <methods>
+          <include name="Test02"/>
+          <include name="beforeTest"/>
+          <include name="Test03"/>
+        </methods>
+      </class> <!-- testNG.Onewaysearch_Spicejet -->
+    </classes>
+  </test> <!-- spicejetresults(failed) -->
+  <test name="TooltipResults(failed)">
+    <classes>
+      <class name="testNG.ToolTip">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.ToolTip -->
+      <class name="testNG.Gmail_Login_Logout">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.Gmail_Login_Logout -->
+      <class name="testNG.AjaxControl">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.AjaxControl -->
+      <class name="testNG.Onewaysearch_Spicejet">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.Onewaysearch_Spicejet -->
+    </classes>
+  </test> <!-- TooltipResults(failed) -->
+</suite> <!-- Failed suite [HMSbatch execution] -->

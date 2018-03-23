@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gmail_dataprovider]">
+  <parameter name="karunabpharm@gmail.com" value="07429186166Kr"/>
+  <parameter name="karunams001" value="07429186166Kk"/>
+  <test name="gmai(failed)">
+    <parameter name="karunabpharm@gmail.com" value="07429186166Kr"/>
+    <parameter name="karunams001" value="07429186166Kk"/>
+    <classes>
+      <class name="testNG.Gmail_Login_Logout_DataPrvider">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testNG.Gmail_Login_Logout_DataPrvider -->
+    </classes>
+  </test> <!-- gmai(failed) -->
+</suite> <!-- Failed suite [Gmail_dataprovider] -->

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47559" started-at="2018-03-14T20:02:52Z" finished-at="2018-03-14T20:03:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47559" started-at="2018-03-14T20:02:52Z" finished-at="2018-03-14T20:03:40Z">
+      <class name="testNG.Onewaysearch_Spicejet">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.Onewaysearch_Spicejet@48eff760]" name="beforeTest" is-config="true" duration-ms="3804" started-at="2018-03-14T20:02:52Z" finished-at="2018-03-14T20:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="Test01()[pri:0, instance:testNG.Onewaysearch_Spicejet@48eff760]" name="Test01" duration-ms="12722" started-at="2018-03-14T20:02:56Z" description="This test case is to verify one way to 3adults,2childs,1infants" finished-at="2018-03-14T20:03:09Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[[object Object]'[object Object]' when calling method: [wdIMouse::move]
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'DESKTOP-O7HFG9C', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d9913b59-8cf2-4ce0-8e44-5c49e112ec4f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: [object Object]'[object Object]' when calling method: [wdIMouse::move]
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'DESKTOP-O7HFG9C', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d9913b59-8cf2-4ce0-8e44-5c49e112ec4f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at testNG.Onewaysearch_Spicejet.verifyoneway(Onewaysearch_Spicejet.java:22)
+	at testNG.Onewaysearch_Spicejet.Test01(Onewaysearch_Spicejet.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: [object Object]'[object Object]' when calling method: [wdIMouse::move]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'DESKTOP-O7HFG9C', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+	at <anonymous class>.WebElement.clickElement(file:///C:/Users/karuna/AppData/Local/Temp/anonymous3866207141048915703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12087)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/karuna/AppData/Local/Temp/anonymous3866207141048915703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/karuna/AppData/Local/Temp/anonymous3866207141048915703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/karuna/AppData/Local/Temp/anonymous3866207141048915703webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01 -->
+        <test-method status="PASS" signature="Test02()[pri:0, instance:testNG.Onewaysearch_Spicejet@48eff760]" name="Test02" duration-ms="16446" started-at="2018-03-14T20:03:09Z" description="This test case is to verify one way to 2adults,1childs,0infants" finished-at="2018-03-14T20:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02 -->
+        <test-method status="PASS" signature="Test03()[pri:0, instance:testNG.Onewaysearch_Spicejet@48eff760]" name="Test03" duration-ms="14560" started-at="2018-03-14T20:03:25Z" description="This test case is to verify one way to 1adults,0childs,0infants" finished-at="2018-03-14T20:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03 -->
+      </class> <!-- testNG.Onewaysearch_Spicejet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
